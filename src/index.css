@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #df7f18;
+    --secondary-color: #cd2721;
+}
+
+a {
+    text-decoration: none;
+}

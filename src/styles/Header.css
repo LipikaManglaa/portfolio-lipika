@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #df7f18;
+    --secondary-color: #cd2721;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mobile-icon {
+    display: none;
+}
+
+.main {
+    width: 100%;
+}
+
+/* Header Section start here */
+
+header {
+    width: 100%;
+    background-color: #683D22;
+    z-index: 999;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.header-inner {
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-inner .logo {
+    flex-basis: 25%;
+    cursor: pointer;
+}
+
+.logo>h1 {
+  
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+
+.header-inner nav {
+    flex-basis: 65%;
+}
+
+.header-inner>nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.header-inner>nav>ul>li {
+    padding: 20px 15px;
+    text-transform: uppercase;
+    color: #282828;
+    font-size: 15px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.header-inner>nav>ul>li>a {
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+}
+
+.header-inner>nav>ul>li:hover a {
+    color: #000;
+
+
+
+.activeMenu{
+
+    color: #000 !important;
+ 
+}
+
+.header-inner>nav>ul>li>a:focus-visible {
+    border: 0px !important;
+    outline: none !important;
+    outline-offset: 0px !important;
+}
+
+.header-inner>nav>ul{
+    margin-bottom: 0px;
+}
+.header-inner>nav>ul>li>a>i {
+    margin-right: 5px;
+    color: var(--primary-color);
+}
+
+.header-inner nav ul li button {
+    background-image: linear-gradient(to right, #c27a2e, #cd8a43, #db9e5c, #895b2a);
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    text-align: right;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-inner nav ul li button:hover {
+    background: var(--secondary-color)
+}
+
+.header-inner>nav>ul>li>a>i {
+    margin-right: 8px;
+}
+
+@keyframes phoneMove {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    33% {
+        transform: rotate(3deg);
+    }
+
+    66% {
+        transform: rotate(-3deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.header-inner>nav>ul>li:last-child {
+    animation: phoneMove 1s 0s linear infinite;
+}
+
+/* header Section ends here */

@@ -1,0 +1,82 @@
+/* About section start here */
+#about {
+    width: 900px;
+    margin: auto;    padding: 50px 0px;
+   
+}
+
+#about>h3 {
+    font-size: 40px;
+    text-align: center;
+    color: #683D22;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+.about-inner {
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-inner figure {
+    flex-basis: 47%;
+}
+
+.about-inner figure img {
+    width: 100%;
+}
+
+.about-content {
+    flex-basis: 47%;
+}
+
+.about-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#000;
+    font-weight: bold;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 26px;
+    color: #9b9b9b;
+    text-align: justify;
+}
+
+.about-content button {
+    padding: 15px 25px;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: 0px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.about-content button a {
+    color: #fff;
+}
+
+.about-inner figure {
+    position: relative;
+}
+
+.about-inner figure {
+    overflow: hidden;
+}
+
+.about-inner figure{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+.about-inner figure img{
+    width: 100%;
+    height: 100%;
+}

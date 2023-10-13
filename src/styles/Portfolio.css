@@ -1,0 +1,63 @@
+.portfolio-head{
+
+      width: 100%;
+    transition: .3s;
+    background-color: #F3E3D9;
+    padding: 20px 0px;
+   height: 240px;
+    
+}
+.port-list{
+    overflow: hidden;
+   
+}
+
+.portfolio-head h4{
+    text-align: center;
+  
+   
+}
+.portDtaa{
+     margin: auto;
+}
+.port-list{
+    width: 100%;
+    height: 400px;
+}
+
+.port-list img{
+    width: 100%;
+    height: 100%;
+}
+.social-link-items a{
+    font-size: 28px;
+    color: #000;
+    line-height: 50px;
+}
+.social-link-items {
+    color: #9f9f9f;
+   box-sizing: border-box;
+    display: table;
+    text-align: center;
+    transition: 0.3s;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+   
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+  
+
+}
+.social-port{
+    margin: auto;
+}
+.port-list{
+   
+    background-color: #fff;
+}
+.borPort{
+    border: 2px solid #683D22;
+    padding: 0px !important;
+      
+}

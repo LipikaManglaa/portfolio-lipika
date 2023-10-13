@@ -1,0 +1,32 @@
+.resumme-html{
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 15px;
+    margin: 30px 0px;
+    /* background-image: url('./../../assets/resume.jpg'); */
+}
+.resume-down{
+
+}
+.resume-down a{
+    text-decoration: none;
+    color: #683D22;
+    font-weight: 600;
+}
+.resumme-html h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.resumme-html  a{
+   text-align: center;
+   display: block;
+   text-decoration: none;
+   color: #683D22;
+   font-weight: 500;
+}
+.resumme-html ul li{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    cursor: pointer;
+}
