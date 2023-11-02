@@ -10,6 +10,8 @@ import bootstrap from './../assets/bootstrap.jpg'
 import tailwind from './../assets/tailwind.jpg'
 import javascript from './../assets/javascript.jpg'
 import react from './../assets/react.jpg'
+import ecommerce from './../assets/ecommerce.png'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Portfolio() {
@@ -28,6 +30,28 @@ export default function Portfolio() {
                 </div>
               </div>
               <div className='row'>
+              <div className='col-md-4 col-12 mb-4'>
+                  <div className='borPort'>
+                    <div className='port-list'>
+                      <img src={ecommerce} />
+                    </div>
+                    <div className='portfolio-head'>
+                      <h4>Ecommerce </h4>
+                      <p className='text-center mb-2'>Developed an interactive ecommerce website</p>
+                      <p className='text-center'> Express, JWT, React, Cors, Multer,Slugify.</p>
+                      <div className='d-flex justify-content-center'>
+                      <div class="social-link-items social-port">
+                        <Link to={'https://github.com/LipikaManglaa/ecommerce'} target="_blank"><FontAwesomeIcon icon={faGithub} /></Link>
+                        
+                      </div>
+                      <div class="social-link-items social-port">
+                     
+                        <Link to={'https://gruesome-chupacabra-93812-89264ae7b4ee.herokuapp.com/'} target="_blank"><FontAwesomeIcon icon={faLink} /></Link>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className='col-md-4 col-12 mb-4'>
                   <div className='borPort'>
                     <div className='port-list'>
