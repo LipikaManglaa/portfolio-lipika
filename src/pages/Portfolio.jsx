@@ -64,6 +64,10 @@ export default function Portfolio() {
                       <div class="social-link-items social-port">
                         <Link to={'https://github.com/LipikaManglaa/HTML-Project'} target="_blank"><FontAwesomeIcon icon={faGithub} /></Link>
                       </div>
+                      <div class="social-link-items social-port">
+                     
+                     <Link to={'https://656471c61931392884a745c6--famous-lolly-69714b.netlify.app/'} target="_blank"><FontAwesomeIcon icon={faLink} /></Link>
+                   </div>
                     </div>
                   </div>
                 </div>
@@ -79,6 +83,10 @@ export default function Portfolio() {
                       <div class="social-link-items social-port">
                         <Link to={'https://github.com/LipikaManglaa/bootstrap-project'} target="_blank"><FontAwesomeIcon icon={faGithub} /></Link>
                       </div>
+                      <div class="social-link-items social-port">
+                     
+                     <Link to={'https://6564740d593b112e4f9a5414--lambent-sfogliatella-52e6cf.netlify.app/'} target="_blank"><FontAwesomeIcon icon={faLink} /></Link>
+                   </div>
                     </div>
                   </div>
                 </div>
@@ -96,6 +104,10 @@ export default function Portfolio() {
                       <div class="social-link-items social-port">
                         <Link to={'https://github.com/LipikaManglaa/tailwind-projects'} target="_blank"><FontAwesomeIcon icon={faGithub} /></Link>
                       </div>
+                      <div class="social-link-items social-port">
+                     
+                     <Link to={'https://656475c3a9fd6e2e4ae56582--effervescent-chimera-c7cd4a.netlify.app/'} target="_blank"><FontAwesomeIcon icon={faLink} /></Link>
+                   </div>
                     </div>
                   </div>
                 </div>
@@ -114,6 +126,10 @@ export default function Portfolio() {
                       <div class="social-link-items social-port">
                         <Link to={'https://github.com/LipikaManglaa/Javascriipt-projects'} target="_blank"><FontAwesomeIcon icon={faGithub} /></Link>
                       </div>
+                      <div class="social-link-items social-port">
+                     
+                     <Link to={'https://lipikamanglaa.github.io/weatherForcast/'} target="_blank"><FontAwesomeIcon icon={faLink} /></Link>
+                   </div>
                     </div>
                   </div>
                 </div>
